@@ -9,9 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class NewJokesFragment extends Fragment {
+    public static final String TAG = "NewJokesFragment";
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.new_jokes, container, false);
+        View view = inflater.inflate(R.layout.new_jokes, container, false);
+
+        return view;
     }
 }

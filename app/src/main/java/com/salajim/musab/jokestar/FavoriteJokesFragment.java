@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class FavoriteJokesFragment extends Fragment {
+    public static final String TAG = "FavoriteJokesFragment";
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
